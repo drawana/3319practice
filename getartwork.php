@@ -7,7 +7,7 @@ if (!$result) {
 }
 echo "<ul>"; //put the artwork in an unordered bulleted list
 while ($row = mysqli_fetch_assoc($result)) {
-    echo "<li>" .$row["artname"]. BY . $row["artist"]. "</li>";
+    echo "<li>" .$row["artname"]. " BY "  . $row["artist"]. "</li>";
 }
 echo "</ul>"; //end the bulleted list
 mysqli_free_result($result);
