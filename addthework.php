@@ -12,4 +12,6 @@ if (!mysqli_query($connection, $query)) {
     header('Location: museum.php'); //send back to museum page once it is done
     exit;
 }
+
 ?>
+

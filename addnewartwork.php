@@ -15,7 +15,7 @@ include "connecttodb.php";
 <form action="addthework.php" method="post">
     What is the name of the piece of art: <input type="text" name="work"><br>
     Who created the piece of art: <input type="text" name="artist"><br>
-    What year was it created: <input type="number" min="0" max="2018" value="2018"><br>
+    What year was it created: <input type="number" name="theyear" min="0" max="2018" value="2018"><br>
     Which museum will hold it: <select name="whichmus">
         <?php
         //get all the museum names
