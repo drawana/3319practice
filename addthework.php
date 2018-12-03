@@ -4,7 +4,7 @@ $art = $_POST["work"];
 $artist = $_POST["artist"];
 $theyear = $_POST["theyear"];
 $whichmus = $_POST["whichmus"];
-$query = "INSERT INTO artwork (artname, artist, year, whichmus) 
+$query = "INSERT INTO workofart (artname, artist, year, whichmus) 
 VALUES ('$art', '$artist', '$theyear', '$whichmus');";
 if (!mysqli_query($connection, $query)) {
     die ("Error while trying to add new art" . mysqli_error($connection));
