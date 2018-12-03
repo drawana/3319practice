@@ -14,12 +14,14 @@ include "connecttodb.php";
 ?>
 <h1>Museums of the World </h1>
 Select your museum:
-<select id="pickamuseum">
+<form action="" method="post">
+<select name="pickamuseum" id="pickamuseum">
     <option>Select Here</option>
     <?php
     include "getmuseum.php";
     ?>
 </select>
+</form>
 
 <hr>
 <hr>
