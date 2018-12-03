@@ -6,13 +6,15 @@
     <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
 </head>
 <body>
+<script src="museum.js"></script>
+
 <?php
 include "connecttodb.php";
 
 ?>
 <h1>Museums of the World </h1>
 Select your museum:
-<select>
+<select id="pickamuseum">
     <option>Select Here</option>
     <?php
     include "getmuseum.php";
