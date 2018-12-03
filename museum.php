@@ -24,6 +24,10 @@ Select your museum:
 </form>
 
 <hr>
+<?php
+include "connecttodb.php";
+include "getartwork.php";
+?>
 <hr>
 <img src="http://www.csd.uwo.ca/~lreid/blendedcs3319/flippedclassroom/four/kids.png" width="216" height="260">
 </body>

@@ -9,5 +9,5 @@ function prepareListener() {
 }
 
 function getArt() {
-    alert("Hello world");
+    this.form.submit();
 }
